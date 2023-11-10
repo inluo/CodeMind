@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="467f74d5-ff7a-44dd-bcaa-eede4fb83d7c" name="Changes" comment="第一次提交" />
+    <list default="true" id="467f74d5-ff7a-44dd-bcaa-eede4fb83d7c" name="Changes" comment="第一次提交">
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/main/binarySearch/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/test/java/test/one.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Algorithm.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,9 +56,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.14306152" />
+    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
   <component name="RunManager">
     <configuration name="one.one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -81,7 +86,9 @@
       <option name="presentableId" value="Default" />
       <updated>1699264883019</updated>
       <workItem from="1699264884209" duration="124000" />
-      <workItem from="1699265104464" duration="770000" />
+      <workItem from="1699265104464" duration="1289000" />
+      <workItem from="1699266461053" duration="629000" />
+      <workItem from="1699626605965" duration="2060000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1699265367194</created>
@@ -113,6 +120,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
