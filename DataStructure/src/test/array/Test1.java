@@ -2,6 +2,7 @@ package array;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -50,6 +51,18 @@ public class Test1 {
         }
         List.of(1,2,3,4,5,6,7,8,9);
         assertIterableEquals(List.of(1,2,3,4,5,6,7,8,9),array);
+    }
+
+    @Test
+    @DisplayName("二维数组")
+    public void test4(){
+        int [][]array = new int[2][];
+        int []a= {1,2};
+        int []b={1,2,3};
+        array[0] = a;
+        array[1] = b;
+//        int c=array[0][3];
+//        System.out.println(c);
     }
 }
 
