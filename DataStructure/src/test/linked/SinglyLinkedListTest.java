@@ -35,6 +35,17 @@ public class SinglyLinkedListTest {
         });
     }
 
+    @Test
+    @DisplayName("递归")
+    public void test5() {
+        SinglyLinkedList list = getLinkedList();
+        list.loop3(value->{
+            System.out.println("before"+value);
+        },value->{
+            System.out.println("after"+value);
+        });
+    }
+
     private SinglyLinkedList getLinkedList() {
         SinglyLinkedList list = new SinglyLinkedList();
         list.addLast(1);
