@@ -1,9 +1,9 @@
 package binarySearch;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
 import static binarySearch.BinarySearch.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Test1 {
     @Test
