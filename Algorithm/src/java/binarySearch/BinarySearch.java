@@ -151,4 +151,29 @@ public class BinarySearch {
         }
         return left - 1;
     }
+
+    /**
+     * 二分查找递归
+     * @param a
+     * @param target
+     * @return
+     */
+    public static int binarySearchRecursion(int []a , int target){
+        return recursion(a,target,0,a.length-1);
+    }
+
+    private static int recursion(int []a,int target,int i,int j){
+        if (i>j){
+            return -1;
+        }
+        int index = (i + j) >>> 1;
+        if (target < a[index]){
+            return recursion(a,target,i,index-1);
+        }else if (a[index] < target){
+            return recursion(a,target,index+1,j);
+        }else {
+            return index;
+        }
+
+    }
 }
