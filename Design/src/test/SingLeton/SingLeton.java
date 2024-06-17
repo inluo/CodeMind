@@ -12,4 +12,11 @@ public class SingLeton {
         System.out.println(instance == instance1);
     }
 
+    @Test
+    public void test2(){
+        LazySingLeton instance = LazySingLeton.getInstance();
+        LazySingLeton instance1 = LazySingLeton.getInstance();
+        System.out.println(instance == instance1);
+    }
+
 }
