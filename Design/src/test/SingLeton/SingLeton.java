@@ -19,4 +19,11 @@ public class SingLeton {
         System.out.println(instance == instance1);
     }
 
+    @Test
+    public void test3(){
+        SingLetonEnum instance = SingLetonEnum.INSTANCE;
+        SingLetonEnum instance1 = SingLetonEnum.INSTANCE;
+        System.out.println(instance == instance1);
+    }
+
 }
