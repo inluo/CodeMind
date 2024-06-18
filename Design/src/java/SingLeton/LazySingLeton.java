@@ -1,7 +1,9 @@
 package SingLeton;
 
+import java.io.Serializable;
+
 //懒汉式   静态内部类模式
-public class LazySingLeton {
+public class LazySingLeton implements Serializable {
     private LazySingLeton() {};
 
     //key 内部类被调用时才被加载
@@ -11,6 +13,11 @@ public class LazySingLeton {
 
     //对外暴露，返回内部类的对象
     public static LazySingLeton getInstance(){
+        return SingLeton.INSTANCE;
+    }
+
+    //反序列化时，自动调用此方法
+    public Object readResolve(){
         return SingLeton.INSTANCE;
     }
 
