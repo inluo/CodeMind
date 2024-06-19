@@ -1,4 +1,4 @@
-package Prototype;
+package prototype;
 
 //原型模式，深克隆
 public class School implements Cloneable{
