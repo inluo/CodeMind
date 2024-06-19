@@ -1,4 +1,4 @@
-package Prototype;
+package prototype;
 
 //原型模式
 public class Realizetype implements Cloneable{
