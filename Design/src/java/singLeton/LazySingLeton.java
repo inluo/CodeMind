@@ -1,4 +1,4 @@
-package SingLeton;
+package singLeton;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package SingLeton;
+package singLeton;
 
 import org.junit.jupiter.api.Test;
 

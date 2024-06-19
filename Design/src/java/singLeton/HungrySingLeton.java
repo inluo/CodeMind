@@ -1,4 +1,4 @@
-package SingLeton;
+package singLeton;
 
 ////饿汉式单例，成员变量模式
 //public class HungrySingLeton {
