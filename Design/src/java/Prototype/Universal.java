@@ -1,4 +1,4 @@
-package prototype;
+package Prototype;
 
 //深克隆的引用对象
 public class Universal {

@@ -1,4 +1,4 @@
-package prototype;
+package Prototype;
 
 //原型模式：三好学生类
 public class Citation implements Cloneable{
