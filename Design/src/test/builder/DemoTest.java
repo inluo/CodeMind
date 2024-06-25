@@ -1,5 +1,6 @@
 package builder;
 
+import builder.chain.Computer;
 import org.junit.jupiter.api.Test;
 
 public class DemoTest {
@@ -23,5 +24,17 @@ public class DemoTest {
         Bike bike = builder.construct();
         System.out.println(bike.getFrame());
         System.out.println(bike.getSeat());
+    }
+
+
+    @Test
+    public void  Test3(){
+        Computer computer = new Computer.Builder()
+                .cpu("AMD")
+                .memory("长鑫")
+                .mainboard("华硕")
+                .screen("三星")
+                .build();
+        System.out.println(computer.toString());
     }
 }
