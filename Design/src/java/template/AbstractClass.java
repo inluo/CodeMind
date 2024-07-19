@@ -3,7 +3,9 @@ package template;
 //模板方法模式
 public abstract class AbstractClass {
 
-    //炒菜方法，相同的方法用本类的
+    /**
+     * key 相同的方法用本类的不同的方法由具体的子类实现
+     */
     public final void cookProcess() {
         //第一步：倒油
         this.pourOil();
