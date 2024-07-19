@@ -4,7 +4,7 @@ package template;
 public abstract class AbstractClass {
 
     /**
-     * key 相同的方法用本类的不同的方法由具体的子类实现
+     * key 相同的方法用本类的，不同的方法由具体的子类实现
      */
     public final void cookProcess() {
         //第一步：倒油
